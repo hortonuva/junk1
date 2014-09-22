@@ -1,6 +1,9 @@
 __author__ = 'horton'
 
-greeting = "hello"
-print greeting
+from helper import greeting
+message = "hello"
+greeting(message)
+
+
 
 
